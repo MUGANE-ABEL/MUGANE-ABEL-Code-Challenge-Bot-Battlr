@@ -1,38 +1,52 @@
-.App {
+.bot-collection {
+  margin: 20px;
+}
+
+.bot-collection table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bot-collection th,
+.bot-collection td {
+  border: 1px solid #ddd;
+  padding: 6px; /* Adjust padding for smaller cells */
   text-align: center;
+  font-size: 14px; /* Reduce font size for smaller text */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bot-collection th {
+  background-color: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bot-collection img {
+  width: 40px; /* Adjust image size for smaller avatars */
+  height: 40px; /* Adjust image size for smaller avatars */
+  border-radius: 50%; /* Apply border-radius for rounded avatars */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.enlisted-btn-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end; /* Flex the button to the right */
+  margin-bottom: 10px; /* Add margin for spacing */
 }
 
-.App-link {
-  color: #61dafb;
+.enlisted-btn-container button {
+  margin-left: 10px; /* Add margin between buttons */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.enlisted-bots-popup{
+  background-color: lightblue;
+  border: thick;
+  border-color: black;
+  border-width: thick;
+}
+
+.close-btn{
+  background-color: pink;
+  border: none;
+  size: 10px* 10px
+}
+h2{
+  text-decoration: underline;
 }
